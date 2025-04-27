@@ -1,0 +1,29 @@
+.format-selector {
+  margin-bottom: var(--space-md);
+  display: flex;
+  align-items: center;
+}
+
+.format-selector label {
+  margin-right: var(--space-sm);
+  font-weight: 500;
+  color: var(--gray-700);
+  font-size: var(--font-size-sm);
+}
+
+.format-selector select {
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius-sm);
+  border: var(--border-width) solid var(--gray-300);
+  background-color: white;
+  font-size: var(--font-size-sm);
+  min-width: 100px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.format-selector select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(67, 97, 238, 0.15);
+}
